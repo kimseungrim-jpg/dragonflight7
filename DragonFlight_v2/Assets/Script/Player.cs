@@ -16,4 +16,14 @@ public class Player : MonoBehaviour
 
         transform.Translate(distanceX, 0, 0);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            Destroy(collision.gameObject);
+
+            Destroy(gameObject);
+        }
+    }
 }
