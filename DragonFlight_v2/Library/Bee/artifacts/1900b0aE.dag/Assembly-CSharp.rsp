@@ -467,11 +467,13 @@
 "Assets/Script/BackGround.cs"
 "Assets/Script/Bullet.cs"
 "Assets/Script/Enemy.cs"
+"Assets/Script/GameManager.cs"
 "Assets/Script/Launcher.cs"
 "Assets/Script/Player.cs"
 "Assets/Script/SingletonTest.cs"
 "Assets/Script/SoungManager.cs"
 "Assets/Script/SpawnEnemy.cs"
+"Assets/Script/StartingT.cs"
 -langversion:9.0
 /deterministic
 /optimize+

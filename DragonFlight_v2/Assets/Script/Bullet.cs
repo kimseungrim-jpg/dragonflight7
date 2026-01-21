@@ -30,6 +30,8 @@ public class Bullet : MonoBehaviour
 
             SoungManager.instance.SoundDie();
 
+            GameManager.Instance.AddScore(200);
+
             Destroy(collision.gameObject);
 
             Destroy(gameObject);
